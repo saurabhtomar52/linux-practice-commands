@@ -1,0 +1,4 @@
+my cloud and devops journy start.
+I learn how to connect my local window cmd terminal to my ec2 aws instance termina
+i add github and terminal i enjoy that. today is first day of my project journey.
+ 

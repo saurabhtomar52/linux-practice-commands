@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Registration - NyaySetu</title>
+    <link rel="stylesheet" href="lawyer.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Lawyer Registration</h1>
+    <p class="tag">Connect with Aam Janta through NyaySetu</p>
+
+    <form id="lawyerForm">
+
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" placeholder="Enter phone number" required>
+        <button type="button" onclick="verifyPhone()">Verify Phone</button>
+
+        <label>Email ID</label>
+        <input type="email" id="email" placeholder="Enter email id" required>
+        <button type="button" onclick="verifyEmail()">Verify Email</button>
+
+        <label>Bar Council ID</label>
+        <input type="text" id="barid" placeholder="Enter Bar Council ID" required>
+
+        <label>Location (City)</label>
+        <input type="text" id="location" placeholder="Enter your city" required>
+
+        <label>Field of Practice</label>
+        <select id="practice">
+            <option>Criminal Law</option>
+            <option>Civil Law</option>
+            <option>Family Law</option>
+            <option>Corporate Law</option>
+            <option>Property Law</option>
+            <option>Cyber Law</option>
+            <option>Other</option>
+        </select>
+
+        <button type="submit" class="submit">Register</button>
+
+    </form>
+
+    <p id="msg"></p>
+
+</div>
+
+<script src="lawyer.js"></script>
+
+</body>
+</html>

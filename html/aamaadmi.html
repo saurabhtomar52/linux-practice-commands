@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aam Aadmi Registration - NyaySetu</title>
+
+    <link rel="stylesheet" href="aamaadmi.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Aam Aadmi Login</h1>
+
+    <p class="tagline">
+        Register to connect with verified lawyers according to your case and location
+    </p>
+
+    <form id="aadmiForm">
+
+        <label>Full Name</label>
+        <input type="text" id="jname" placeholder="Enter your full name" required>
+
+        <label>Phone Number</label>
+        <input type="text" id="jphone" placeholder="Enter phone number" required>
+
+        <button type="button" onclick="verifyPhone()" class="verify">
+            Verify Phone
+        </button>
+
+        <label>Email ID</label>
+        <input type="email" id="jemail" placeholder="Enter email id" required>
+
+        <button type="button" onclick="verifyEmail()" class="verify">
+            Verify Email
+        </button>
+
+        <label>Location (City)</label>
+        <input type="text" id="jlocation" placeholder="Enter your city" required>
+
+        <label>Field of Case</label>
+
+        <select id="jcase">
+            <option>Criminal Case</option>
+            <option>Civil Case</option>
+            <option>Family Dispute</option>
+            <option>Property Issue</option>
+            <option>Corporate Issue</option>
+            <option>Cyber Crime</option>
+            <option>Consumer Case</option>
+            <option>Labour Law Issue</option>
+            <option>Other</option>
+        </select>
+
+        <button type="submit" class="submit">
+            Register
+        </button>
+
+    </form>
+
+    <p id="aadmiMsg"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

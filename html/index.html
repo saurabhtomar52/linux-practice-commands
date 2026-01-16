@@ -2,72 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nyay Setu | Legal Support Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyaySetu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Nyay Setu</h1>
-    <p>Bridging Justice with Technology</p>
-</header>
+    <header>
+        <div class="logo">NYAY<span>SETU</span></div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </nav>
+    </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#showcase">Frontend</a>
-    <a href="#tech">Tech Stack</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <section class="main">
+        <h1>Welcome to NyaySetu</h1>
+        <p>Bridging Justice with Technology</p>
+    </section>
 
-<section class="hero">
-    <h2>Your Digital Legal Companion</h2>
-    <p>Empowering citizens with easy access to legal information and services.</p>
-</section>
+    <section class="features">
 
-<section id="about">
-    <h2>About Nyay Setu</h2>
-    <p>
-        Nyay Setu is a legal support platform that simplifies access to justice by connecting users with legal knowledge, documents, and professional guidance through a modern web interface.
-    </p>
-</section>
+        <div class="card" onclick="openLawyer()">
+            <h3>Lawyer Login</h3>
+            <p>Access cases and manage clients</p>
+        </div>
 
-<section id="features">
-    <h2>Key Features</h2>
-    <ul>
-        <li>Legal Information Portal</li>
-        <li>Case Tracking Interface</li>
-        <li>User-Friendly Dashboard</li>
-        <li>Document Templates</li>
-        <li>Secure Communication</li>
-    </ul>
-</section>
 
-<section id="showcase">
-    <h2>Frontend Showcase</h2>
-    <div class="cards">
-        <div class="card">Homepage UI</div>
-        <div class="card">User Dashboard</div>
-        <div class="card">Case Details Page</div>
-        <div class="card">Document Upload</div>
-    </div>
-</section>
+        <div class="card" onclick="openAadmi()">
+    	    <h3>Aam Aadmi Login</h3>
+    	    <p>Track your legal issues easily</p>
+	</div>
 
-<section id="tech">
-    <h2>Technology Stack</h2>
-    <p>HTML • CSS • JavaScript • Cloud Hosting • Security First Design</p>
-</section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Developed by <b>Saurabh Tomar</b></p>
-    <p>Email: your-email@example.com</p>
-</section>
+	<div class="card" onclick="openUpdates()">
+    	   <h3>Legal Updates</h3>
+           <p>Latest judgments and acts updates</p>
+	</div>
 
-<footer>
-    <p>© 2026 Nyay Setu. All rights reserved.</p>
-</footer>
 
-<script src="script.js"></script>
+        <div class="card">
+            <h3>AI Legal Helper</h3>
+            <p>Search sections and case details</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 NyaySetu – Digital Justice Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

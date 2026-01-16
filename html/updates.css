@@ -34,33 +34,44 @@ nav ul li {
 
 .main {
     text-align: center;
-    padding: 60px;
+    padding: 40px;
     background: #e3f2fd;
 }
 
 .main h1 {
-    font-size: 36px;
+    font-size: 34px;
     color: #0d47a1;
 }
 
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
+.updates-container {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
 }
 
-.card {
+.update-card {
     background: white;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.card h3 {
+.update-card h3 {
     color: #0d47a1;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
+.category {
+    background: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 
 footer {
@@ -68,4 +79,5 @@ footer {
     padding: 15px;
     background: #0d47a1;
     color: white;
+    margin-top: 30px;
 }
